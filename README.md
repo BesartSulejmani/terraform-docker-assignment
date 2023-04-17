@@ -72,6 +72,6 @@ Fill the rest in as you wish like container name, image name etc.
 
 11. For the ports parameter, set the same variables in the variables.tf as you did in your module.
 
-12. Set the value for the ports variable in the terraform.tfvars file.
+12. Set the value for the ports variable in the terraform.tfvars file. Internal port = 80 and external port = 8000
 
 13. Your module will create a docker network. Add a networks_advanced sub-resource to the ubuntu container that you created in assignment 1 and reference to the output that you declared in the module.
