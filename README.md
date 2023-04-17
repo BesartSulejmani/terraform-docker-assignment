@@ -24,7 +24,7 @@ After installing set the following setting(s) for Windows
 
 1. Set up the provider "kreuzwerker/docker"
 2. Set the provider version to 3.0.2
-3. To connec to docker desktop you need to declare a host in your provider block:
+3. To connect to docker desktop you need to declare a host in your provider block:
    1. Windows: host = "tcp://localhost:2375"
    2. MacOS: host = "unix:///var/run/docker.sock"
 4. Create a resource referencing the latest docker image for ubuntu
